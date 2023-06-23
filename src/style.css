@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* CSS RESET */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* container */
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #23252C;
+}
+
+.container{
+    background-color:  #1A1B21;
+    width: 317px;
+    height: 780px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    box-shadow: rgba(74, 79, 82, 0.2) 0px 8px 24px;
+}
+
+/* Info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-top: 21px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title {
+    margin-top: 6.19px;
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+
+.email-link{
+    margin-top: 8.81px;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 10.24px;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 17px;
+}
+
+.button{
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.white {
+    border: 1px solid var(--gray-300, #D1D5DB);
+    color: var(--gray-700, #374151);
+    background-color: white;
+}
+
+.blue {
+    border: inherit;
+    color: #FFFFFF;
+    background: #5093E2;
+}
+
+/* About and Interests */
+.content {
+    margin-left: 36px;
+    margin-right: 34px;
+}
+
+.about {
+    margin-top: 33px;
+}
+
+.interests {
+    margin-top: 10px;
+}
+
+.content-title{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content-text {
+    margin-top: 5px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+/* Footer */
+
+footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 36px;
+    padding-top: 19px;
+    padding-left: 73px;
+    padding-bottom: 20px;
+    padding-right: 73px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+footer a{
+    width: 25px;
+}
